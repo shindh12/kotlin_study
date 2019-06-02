@@ -7,8 +7,8 @@ fun main(args: Array<String>) {
     println(list)
     // To add parameter naming to increase Readability
     println(joinToString(list, separator = ";", prefix = "(", postfix = ")"))
-    println(joinToString(list, prefix = "# "))
 //    println(joinToString(list, ";", "(", ")"))
+    println(joinToString(list, prefix = "# "))
 }
 
 fun <T> joinToString(
